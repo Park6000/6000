@@ -1,0 +1,47 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+#Logo{
+  margin-top: 10px;
+  margin-left: 30px;
+}
+#Grid{
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  margin-top: 10px;
+}
+#List{
+  padding-right: 10px;
+  border-right: 2px solid orange;
+}
+#List , #List ul{
+  padding-left: 10px;
+  color: black;
+}
+#Main{
+  padding-left: 30px;
+}
+#Title{
+}
+@media(max-width:600px){
+  #Grid{
+    display: block;
+  }
+  #List{
+    border-right: none;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    padding: 10px;
+  }
+  #Main{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #Logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #Main img{
+    max-width: 100%;
+    height: auto;
+  }
+}
