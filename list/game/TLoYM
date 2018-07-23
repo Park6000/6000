@@ -1,5 +1,5 @@
 <h2 id="Title">[게임] The Legend of Yellow Man</h2>
-<img src="../../src/게임.png" style="width:500px">
+<img src="src/게임.png" style="width:500px">
 <p>
   작품명 : The Legend of Yellow Man<br>
   작품 설명 : 우주에서 지구로 날아오는 운석을 막는 게임<br>
@@ -7,5 +7,5 @@
   전시 기간 : 2016년 해오름제<br>
   테스트 장소 : 시흥고등학교 컴퓨터실<br>
   <br>
-  <iframe src="../../src/게임.mp4" width="320">
+  <iframe src="src/게임.mp4" width="320">
 </P>

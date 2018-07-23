@@ -1,6 +1,6 @@
 <h2 id="Title">[프로그램] 급식별점기_너의별점은。</h2>
-<img src="../../src/별점1.png" style="width:500px"><br>
-<img src="../../src/별점2.png" style="width:500px; border: 1px solid black">
+<img src="src/별점1.png" style="width:500px"><br>
+<img src="src/별점2.png" style="width:500px; border: 1px solid black">
 <p>
   작품명 : 너의별점은。<br>
   작품 설명 : 전날 먹은 급식의 별점을 주는 프로그램<br>
@@ -9,5 +9,5 @@
   테스트 장소 : 시흥고등학교 급식실 입구<br>
   테스트 결과 : <a href="https://band.us/band/67147491" target="_blank">네이버 밴드 <시흥고 급식 별점></a><br>
   <br>
-  <img src="../../src/급식.jpg" style="width:500px">
+  <img src="src/급식.jpg" style="width:500px">
 </P>
