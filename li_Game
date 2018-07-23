@@ -1,0 +1,2 @@
+<h2>게임</h2>
+<li><a onclick="fetchPage('list/game/TLoYM');">The Legend of Yellow Man</a></li>

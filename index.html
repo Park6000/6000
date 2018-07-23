@@ -3,35 +3,54 @@
   <head>
     <meta charset="utf-8">
     <title>6000</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=<%=System.currentTimeMillis() %>">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="colors.js?v=<%=System.currentTimeMillis() %>"></script>
+    <script src="fetch.js?v=<%=System.currentTimeMillis() %>"></script>
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@7/dist/polyfill.min.js"></script>
+    <script src="//cdn.jsdelivr.net/bluebird/3.5.0/bluebird.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.js"></script>
+    <script src="IEfetch.js?v=<%=System.currentTimeMillis() %>"></script>
   </head>
+
   <body>
-    <a href="index.html"><img id="Logo" src="src/logo.jpg" title="6000" style="width:100px"></a>
+    <a href="index.html"> <img id="Logo" src="src/logo.png" title="6000" style="width:100px"></a>
     <div id="Grid">
       <ul id="List">
-        <li><a href="list/introduce.html">박유천 소개</a></li>
-        <li>박유천 작품</li>
-        <ul>
-          <li>게임</li>
-          <ul>
-            <li><a href="list/game/TLoYM.html">The Legend of Yellow Man</a></li>
-          </ul>
-          <li>그림</li>
-          <ul>
-            <li><a href="list/art/ARMS.html">ARMS</a></li>
-            <li><a href="list/art/OVERWATCH.html">OVERWATCH</a></li>
-            <li><a href="list/art/고군분투.html">고군분투</a></li>        </ul>
-          <li>프로그램</li>
-          <ul>
-            <li><a href="list/program/너의별점은.html">급식별점기_너의별점은。</a></li>
-          </ul>
-        </ul>
       </ul>
       <div id="Main">
-        <h2 id="Title">6000에 오신 것을 환영합니다.</h2>
+        <h2>6000에 오신 것을 환영합니다.</h2>
         <img src="src/main.jpg" style="width:400px">
         <p><u>※ 이 홈페이지는 박유천의 교육 결과물입니다.</u></P>
       </div>
     </div>
+    <!-- 라이브리 시티 설치 코드 -->
+    <div id="lv-container" data-id="city" data-uid="MTAyMC8zODExNS8xNDY0NQ==">
+    <script type="text/javascript">
+       (function(d, s) {
+           var j, e = d.getElementsByTagName(s)[0];
+
+           if (typeof LivereTower === 'function') { return; }
+
+           j = d.createElement(s);
+           j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+           j.async = true;
+
+           e.parentNode.insertBefore(j, e);
+       })(document, 'script');
+    </script>
+    </div>
+    <!-- 시티 설치 코드 끝 -->
+    <input id="NightMode" type="button" value="야간모드" onclick="
+      NightAndDay(this);
+    ">
+  <script>
+    // if(location.hash){                        //해쉬가 있다면 그 페이지로 이동
+    //   fetchPage(location.hash.substring(2));
+    // }else{
+    //   fetchPage('welcome');
+    // }
+    fetchList('li_List');
+  </script>
   </body>
 </html>

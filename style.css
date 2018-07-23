@@ -1,4 +1,3 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 #Logo{
   margin-top: 10px;
   margin-left: 30px;
@@ -8,18 +7,17 @@
   grid-template-columns: 180px 1fr;
   margin-top: 10px;
 }
-#List{
+#List {
   padding-right: 10px;
-  border-right: 2px solid orange;
+  border-right: 2px solid darkorange;
+  font-weight: bolder;
 }
 #List , #List ul{
+  text-overflow: ellipsis;
   padding-left: 10px;
-  color: black;
 }
 #Main{
   padding-left: 30px;
-}
-#Title{
 }
 @media(max-width:600px){
   #Grid{
@@ -27,9 +25,10 @@
   }
   #List{
     border-right: none;
-    border-top: 2px solid orange;
-    border-bottom: 2px solid orange;
+    border-top: 2px solid darkorange;
+    border-bottom: 2px solid darkorange;
     padding: 10px;
+    font-weight: normal;
   }
   #Main{
     margin-left: auto;
@@ -42,6 +41,11 @@
   }
   #Main img{
     max-width: 100%;
-    height: auto;
+    width: auto;
+  }
+  #NightMode{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

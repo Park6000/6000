@@ -1,0 +1,2 @@
+<h2>프로그램</h2>
+<li><a onclick="fetchPage('list/program/너의별점은');">급식별점기_너의별점은。</a></li>

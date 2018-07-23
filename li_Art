@@ -1,0 +1,4 @@
+<h2>그림</h2>
+<li><a onclick="fetchPage('list/art/ARMS');">ARMS</a></li>
+<li><a onclick="fetchPage('list/art/OVERWATCH');">OVERWATCH</a></li>
+<li><a onclick="fetchPage('list/art/고군분투');">고군분투</a></li>
